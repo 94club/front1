@@ -1,17 +1,12 @@
 <template>
   <div class="hello">
-    <h1>HelloWorld</h1>
-    <router-link :to="'aaa'">aaa</router-link>
+  404
   </div>
 </template>
 
 <script>
 export default {
-  name: 'index',
-  created () {
-    // this.$router.push('/non-existing')
-  }
-
+  name: 'NotFound'
 }
 </script>
 
