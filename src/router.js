@@ -11,6 +11,11 @@ const router = new Router({
       component: () => import('./components/HelloWorld.vue'),
     },
     {
+        path: '/home',
+        name: 'home',
+        component: () => import('./components/home.vue'),
+    },
+    {
       path: '*',
       name: 'NotFound',
       component: () => import('./components/404.vue')
